@@ -1,0 +1,19 @@
+/* EXTERNAL STYLESHEET FOR SWEET POTATO WEBSITE */
+
+/* Need to:
+    Center elements.
+    Add color to header, main, and footer.
+    Add padding and border to link to make it look like a button.
+    Bonus: make image a circle. */
+
+body{
+    background-color: antiquewhite;
+}
+
+header{
+    background-color: aqua;
+}
+
+footer{
+    background-color: brown;
+}
