@@ -6,14 +6,41 @@
     Add padding and border to link to make it look like a button.
     Bonus: make image a circle. */
 
-body{
+/* * {
+    border: 1px solid black;
+} */
+  
+body {
     background-color: antiquewhite;
+    text-align: center;
 }
 
-header{
+header {
     background-color: aqua;
+
 }
 
-footer{
+nav {
+    background-color: rgb(144, 189, 145);
+}
+
+a {
+    background-color: goldenrod;
+    border: 1px solid black;
+}
+
+/* ChatGPT used to figure out how to crop image into a circle */
+main img {
+    border-radius: 50%;
+    border-width: 1px solid black;
+    overflow: hidden;
+}
+
+/* main ul {
+    width: 50%;
+
+} Having trouble centering this list on the page */
+
+footer {
     background-color: brown;
 }
