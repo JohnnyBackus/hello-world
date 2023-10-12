@@ -5,32 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sweet Potato Power</title>
     <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
 </head>
 <body>  
-    <script>
-        let userAnswer = prompt('Hello! Welcome to my Sweet Potato Fan Page! Answer "yes" (all lowercase) if you\'re ready to learn more');
-        console.log ('First Response was: ' + userAnswer);
-            if (userAnswer == 'yes') {
-                document.write('Welcome fellow Sweetie!')
-                } else if (userAnswer == '"yes"') {
-                    document.write('Welcome fellow Sweetie!')
-                    } else {                        
-                        document.write('Oops! You misspelled "yes" or maybe you meant to visit the Team Russet fanpage linked below. Either way, spend a moment here, and you will become a fanatic of the amazing sweet potato!')
-                        }
-        let userAnswerTwo = prompt('Did you know that the average sweet potato plant is 300 years old!? Want to find out your age in sweet potato years? Enter your age (numerals only, please) and click the button below!')
-        console.log ('Age Response was: ' + userAnswerTwo)
-        let sweetPotatoAge = userAnswerTwo / 4; 
-    </script>
     <header>
+        <script> welcome() </script>
         <h1>Sweet Potatoes Reign Supreme</h1>
         <nav>
+            <script> let userTaterAge = taterAge() </script>
             <a href="https://yuyang201323.github.io/hello-world/index.html"> The Lackluster Case for Russets</a>
+            <button onclick = "this.innerHTML='Your Sweetie Age is ' + userTaterAge + '!'">
+                Find Your Sweet Potato Age Here
+            </button>
         </nav>
     </header>
     <main>
-        <button onclick = "this.innerHTML=sweetPotatoAge">
-        Your Sweet Potato Age Is?
-        </button>
         <img src="https://loremflickr.com/640/360" alt="This is an image of scrumptious sweet potato">
         <section>
             <h2>An Ode to the Magnificent Orange Tuber</h2>
