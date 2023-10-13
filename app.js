@@ -17,7 +17,7 @@ function welcome() {
     }
 }
 
-function taterAge(){
+function taterAge() {
     let userAnswer = prompt('Did you know that the average sweet potato plant is 300 years old!? Want to find out your age in sweet potato years? Enter your age (numerals only, please) and click the button below!');
     console.log ('Age Response was: ' + userAnswer);
     while (parseInt(userAnswer) > 125 || parseInt(userAnswer) <=0) {
@@ -26,8 +26,8 @@ function taterAge(){
     return parseInt(userAnswer) / 4;
 }
 
-function taterCounter(taterAge){
-    for (let i=1 ; i = taterAge ; i++) {
+function taterCounter(taterAge) {
+    for (let i = 1 ; i <= taterAge ; i++) {
         document.write('<img src="sweetTater.png" alt="cartoon sweet potato">');
     }
 }
